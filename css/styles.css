@@ -345,7 +345,7 @@ img {
   margin-bottom: var(--mb-2-5);
   text-align: center; 
   }
-/*TEST CODE 3/11/25 LINES 349 TO 363*/
+/*TEST CODE 3/11/25 LINES 349 TO 369*/
 .about-container {
   display: flex;
   flex-direction: column; /* Stack elements vertically */
@@ -355,21 +355,28 @@ img {
 about-container-data-info {
   display: flex;
   justify-content: center; /* Center elements horizontally */
-  gap: 2rem; /* Add space between elements */
+  gap: 3rem; /* Add space between elements */
 }
 .about-buttons {
   display: flex;
   justify-content: center;
 }
-/* ORIGINAL CODE
+.about-container-data-info div {
+  display: flex;
+  flex-direction: column; /* Stacks text inside each stat */
+  align-items: center; /* Ensures each stat is centered */
+  font-weight: bold;
+}
+/* ORIGINAL CODE LINES 365 TO 372
 .about-container-data-info {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
-}*/
+}
   .about-container-data-info div {
   text-align: center;
 }
+*/
 .about-container-data-info-title {
   color: var(--title-color);
   font-size: var(--h2-font-size);
