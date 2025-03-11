@@ -352,10 +352,9 @@ img {
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
 }
-/* 3/11/25 4:25PM - TEST LINES 356 TO 359
   .about-container-data-info div {
   text-align: center;
-}*/
+}
 .about-container-data-info-title {
   color: var(--title-color);
   font-size: var(--h2-font-size);
