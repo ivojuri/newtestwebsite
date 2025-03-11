@@ -332,7 +332,7 @@ img {
 }
 
 /* About section */
-/* 3/11/25 4:17 PM TEST LINES 335 TO 339
+/* 3/11/25 4:17 PM TEST LINES 335 TO 339 - IT DIDN'T CAUSE ANY VISUAL EFFECT ON THE WEBSITE
 .about-container-img {
   display: flex;
   justify-content: center;
@@ -345,16 +345,18 @@ img {
 .about-container-data-description {
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-2-5);
-  text-align: center;
-}
+  /* 3/11/25 4:25PM - TEST LINES 348 TO 350
+  text-align: center; 
+  }*/
 .about-container-data-info {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
 }
-.about-container-data-info div {
+/* 3/11/25 4:25PM - TEST LINES 356 TO 359
+  .about-container-data-info div {
   text-align: center;
-}
+}*/
 .about-container-data-info-title {
   color: var(--title-color);
   font-size: var(--h2-font-size);
@@ -363,18 +365,21 @@ img {
 .about-container-data-info-name {
   font-size: var(--smaller-font-size);
 }
+  /* 3/11/25 4:25PM - TEST LINES 368 TO 372
 .about-container-data-info-title, .about-container-data-info-name {
   display: block;
   text-align: center;
-}
+} */
 .about-container .about-buttons {
   display: flex;
-  justify-content: center;
+  /* 3/11/25 4:25PM - TEST LINES 375 TO 376
+  justify-content: center; */
 }
 .about-container .phd-link {
   margin-top: 25px;
 }
 
+  
 /* Skills section */
 .skills-container {
   display: grid;
