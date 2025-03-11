@@ -332,12 +332,10 @@ img {
 }
 
 /* About section */
-/* 3/11/25 4:17 PM TEST LINES 335 TO 339 - IT DIDN'T CAUSE ANY VISUAL EFFECT ON THE WEBSITE
 .about-container-img {
   display: flex;
   justify-content: center;
 }
-*/
 .about-container-imgAlt {
   width: 265px;
   border-radius: 0.5rem;
