@@ -355,7 +355,7 @@ img {
 about-container-data-info {
   display: flex;
   justify-content: center; /* Center elements horizontally */
-  gap: 3rem; /* Add space between elements */
+  gap: 4rem; /* Add space between elements */
 }
 .about-buttons {
   display: flex;
