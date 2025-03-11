@@ -364,15 +364,13 @@ img {
 .about-container-data-info-name {
   font-size: var(--smaller-font-size);
 }
-  /* 3/11/25 4:25PM - TEST LINES 368 TO 372
 .about-container-data-info-title, .about-container-data-info-name {
   display: block;
   text-align: center;
-} */
+} 
 .about-container .about-buttons {
   display: flex;
-  /* 3/11/25 4:25PM - TEST LINES 375 TO 376
-  justify-content: center; */
+  justify-content: center;
 }
 .about-container .phd-link {
   margin-top: 25px;
