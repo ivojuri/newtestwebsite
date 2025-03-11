@@ -349,6 +349,8 @@ img {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
+  /* TEST 3/11/25 3:36PM - TEXT-ALIGN */ 
+  text-align: center;
 }
 .about-container-data-info div {
   text-align: center;
