@@ -149,6 +149,10 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
+/*TEST 3/11/25 3:54PM - 153 TO 155*/
+.container, .grid {
+  text-align: center;
+  }
 }
 
 /* Header */
@@ -349,8 +353,6 @@ img {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
-  /* TEST 3/11/25 3:36PM - TEXT-ALIGN */ 
-  text-align: center;
 }
 .about-container-data-info div {
   text-align: center;
