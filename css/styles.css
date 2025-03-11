@@ -345,9 +345,8 @@ img {
 .about-container-data-description {
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-2-5);
-  /* 3/11/25 4:25PM - TEST LINES 348 TO 350
   text-align: center; 
-  }*/
+  }
 .about-container-data-info {
   display: flex;
   justify-content: space-evenly;
