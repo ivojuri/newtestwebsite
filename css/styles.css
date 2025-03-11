@@ -149,10 +149,6 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
-/*TEST 3/11/25 3:54PM - 153 TO 155*/
-.container, .grid {
-  text-align: center;
-  }
 }
 
 /* Header */
@@ -336,10 +332,12 @@ img {
 }
 
 /* About section */
+/* 3/11/25 4:17 PM TEST LINES 335 TO 339
 .about-container-img {
   display: flex;
   justify-content: center;
 }
+*/
 .about-container-imgAlt {
   width: 265px;
   border-radius: 0.5rem;
